@@ -237,25 +237,25 @@ HOSTELLO/
 
 ### 🛡️ Admin & Warden Control Panel
 <div align="center">
-  <img src="assets/2.admin_dashboard_overview.png" alt="Admin Dashboard" width="850"/>
-  <br><em>Centralized Warden Control Panel with Real-time Analytics</em><br><br>
-
   <table style="width:100%">
     <tr>
-      <td align="center"><img src="assets/6.attendance_management_enhanced.png" alt="Attendance Management" width="400"/><br><b>Bulk Attendance & Statistics</b></td>
-      <td align="center"><img src="assets/8.automated_fee_calculation.png" alt="Fee Calculation" width="400"/><br><b>Dynamic Fee Engine (Hostel + Mess)</b></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="assets/7.student_request_management.png" alt="Request Management" width="400"/><br><b>Processing Leave & Complaints</b></td>
-      <td align="center"><img src="assets/9.notice_board_management.png" alt="Notice Management" width="400"/><br><b>Warden Notice Broadcasting</b></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="assets/5.student_directory_admin.png" alt="Student Directory" width="400"/><br><b>Comprehensive Student Records</b></td>
-      <td align="center"><img src="assets/4.room_management_system.png" alt="Room Management" width="400"/><br><b>Inventory & Room Allocation</b></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="assets/3.warden_profiles_list.png" alt="Warden Profiles" width="400"/><br><b>Hostel Warden Management</b></td>
       <td align="center"><img src="assets/1.admin_login_page.png" alt="Admin Login" width="400"/><br><b>Secure Warden Portal Login</b></td>
+      <td align="center"><img src="assets/2.admin_dashboard_overview.png" alt="Admin Dashboard" width="400"/><br><b>Centralized Admin Dashboard</b></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="assets/3.warden_profiles_list.png" alt="Warden Profiles" width="400"/><br><b>Managing Hostel Wardens</b></td>
+      <td align="center"><img src="assets/4.room_management_system.png" alt="Room Management" width="400"/><br><b>Managing Room Availability & Types</b></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="assets/5.student_directory_admin.png" alt="Student Directory" width="400"/><br><b>Warden's View of Student Records</b></td>
+      <td align="center"><img src="assets/6.attendance_management_enhanced.png" alt="Attendance Management" width="400"/><br><b>Bulk Attendance & Detailed Statistics</b></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="assets/7.student_request_management.png" alt="Request Management" width="400"/><br><b>Processing Leave & Complaint Requests</b></td>
+      <td align="center"><img src="assets/8.automated_fee_calculation.png" alt="Fee Calculation" width="400"/><br><b>Dynamic Fee Engine: Hostel + Mess</b></td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2"><img src="assets/9.notice_board_management.png" alt="Notice Management" width="800"/><br><b>Broadcasting Warden Notices to Students</b></td>
     </tr>
   </table>
 </div>
