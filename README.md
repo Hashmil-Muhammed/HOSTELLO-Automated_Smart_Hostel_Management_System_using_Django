@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://img.shields.io/badge/HOSTELLO-Admin-092E20?style=for-the-badge&logo=django" alt="Hostello Logo">
+  <img src="https://img.shields.io/badge/HOSTELLO-Automated Smart Hostel Management System using Django-092E20?style=for-the-badge&logo=django" alt="Hostello Logo">
   
   <h3>HOSTELLO</h3>
   <p>Automated Smart Hostel Management System using Django</p>
