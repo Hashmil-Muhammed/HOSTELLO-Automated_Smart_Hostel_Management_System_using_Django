@@ -201,11 +201,12 @@ HOSTELLO/
 
 ### 🎓 Student Dashboard & Attendance
 <div align="center">
-  <img src="assets/09_student_dashboard.png" alt="Student Dashboard" width="800"/>
-  <br><em>Comprehensive Student Profile & Status Dashboard</em><br><br>
-  
-  <img src="assets/10_attendance_records.png" alt="Attendance Records" width="800"/>
-  <br><em>Real-time Room and Mess Attendance Tracking</em>
+  <table style="width:100%">
+    <tr>
+      <td align="center"><img src="assets/09_student_dashboard.png" alt="Student Dashboard" width="400"/><br><b>Comprehensive Student Profile</b></td>
+      <td align="center"><img src="assets/10_attendance_records.png" alt="Attendance Records" width="400"/><br><b>Real-time Attendance Tracking</b></td>
+    </tr>
+  </table>
 </div>
 
 ---
