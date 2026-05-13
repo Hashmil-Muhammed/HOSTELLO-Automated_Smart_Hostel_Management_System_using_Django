@@ -167,7 +167,7 @@ HOSTELLO/
 
 ### 🌐 Public Portal & Essential Info
 <div align="center">
-  <img src="assets/01_landing_page.png" alt="Landing Page" width="920"/>
+  <img src="assets/01_landing_page.png" alt="Landing Page" width="900"/>
   <br><em>Modern & Responsive Landing Page</em><br><br>
 
   <table style="width:100%">
