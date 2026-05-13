@@ -185,7 +185,6 @@ HOSTELLO/
   </table>
 </div>
 
----
 
 ### 🔐 Authentication & Onboarding
 <div align="center">
@@ -197,7 +196,6 @@ HOSTELLO/
   </table>
 </div>
 
----
 
 ### 🎓 Student Dashboard & Attendance
 <div align="center">
@@ -209,7 +207,6 @@ HOSTELLO/
   </table>
 </div>
 
----
 
 ### 💳 Fee Management & Payments
 <div align="center">
@@ -221,7 +218,6 @@ HOSTELLO/
   </table>
 </div>
 
----
 
 ### 📝 Requests, Notices & Info
 <div align="center">
