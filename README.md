@@ -165,25 +165,36 @@ HOSTELLO/
 
 ## 📸 Application Screens
 
-### 🌐 Public Portal & Student Information
+### 🌐 Public Portal & Essential Info
 <div align="center">
   <img src="assets/01_landing_page.png" alt="Landing Page" width="800"/>
   <br><em>Modern & Responsive Landing Page</em><br><br>
-  
-  <img src="assets/03_room_types.png" alt="Room Types" width="800"/>
-  <br><em>Detailed 3D Room Previews & Pricing</em><br><br>
 
-  <img src="assets/05_food_menu.png" alt="Food Menu" width="800"/>
-  <br><em>Dynamic Food Menu & Charges Information</em>
+  <table style="width:100%">
+    <tr>
+      <td align="center"><img src="assets/02_about_hostels.png" alt="About Hostels" width="400"/><br><b>Hostel Blocks & Capacity</b></td>
+      <td align="center"><img src="assets/03_room_types.png" alt="Room Types" width="400"/><br><b>3D Room Previews</b></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="assets/04_facilities.png" alt="Facilities" width="400"/><br><b>Student Living Benefits</b></td>
+      <td align="center"><img src="assets/05_food_menu.png" alt="Food Menu" width="400"/><br><b>Weekly Mess Menu</b></td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2"><img src="assets/06_amenities_footer.png" alt="Amenities" width="800"/><br><b>Hostel Amenities & Contact Info</b></td>
+    </tr>
+  </table>
 </div>
 
 ---
 
 ### 🔐 Authentication & Onboarding
 <div align="center">
-  <img src="assets/07_registration.png" alt="Registration" width="400"/> &nbsp; &nbsp;
-  <img src="assets/08_login.png" alt="Login" width="400"/>
-  <br><em>Secure Student Registration and Login Portal</em>
+  <table style="width:100%">
+    <tr>
+      <td align="center"><img src="assets/07_registration.png" alt="Registration" width="400"/><br><b>Secure Registration</b></td>
+      <td align="center"><img src="assets/08_login.png" alt="Login" width="400"/><br><b>Student Login</b></td>
+    </tr>
+  </table>
 </div>
 
 ---
@@ -201,25 +212,28 @@ HOSTELLO/
 
 ### 💳 Fee Management & Payments
 <div align="center">
-  <img src="assets/13_fee_management.png" alt="Fee Management" width="800"/>
-  <br><em>Dynamic Fee Calculation (Hostel + Mess) & Secure Payment Gateway</em><br><br>
-
-  <img src="assets/15_payment_success.png" alt="Payment Success" width="600"/>
-  <br><em>Automated Payment Success Confirmation</em>
+  <table style="width:100%">
+    <tr>
+      <td align="center"><img src="assets/13_fee_management.png" alt="Fee Management" width="400"/><br><b>Dynamic Fee Calculation</b></td>
+      <td align="center"><img src="assets/15_payment_success.png" alt="Payment Success" width="400"/><br><b>Automated Receipts</b></td>
+    </tr>
+  </table>
 </div>
 
 ---
 
 ### 📝 Requests, Notices & Info
 <div align="center">
-  <img src="assets/11_my_requests_list.png" alt="Requests List" width="800"/>
-  <br><em>Leave Request & Complaint Status Tracking</em><br><br>
-
-  <img src="assets/16_notifications_notices.png" alt="Notifications" width="800"/>
-  <br><em>Real-time Warden Notices categorized by Priority</em><br><br>
-
-  <img src="assets/17_hostel_info_contact.png" alt="Hostel Info" width="800"/>
-  <br><em>Quick Access to Warden Details and Hostel Policies</em>
+  <table style="width:100%">
+    <tr>
+      <td align="center"><img src="assets/11_my_requests_list.png" alt="Requests List" width="400"/><br><b>Leave & Complaint Status</b></td>
+      <td align="center"><img src="assets/12_leave_request_form.png" alt="Request Form" width="400"/><br><b>Submission Modal</b></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="assets/16_notifications_notices.png" alt="Notifications" width="400"/><br><b>Warden Notices</b></td>
+      <td align="center"><img src="assets/17_hostel_info_contact.png" alt="Hostel Info" width="400"/><br><b>Policies & Contacts</b></td>
+    </tr>
+  </table>
 </div>
 
 ---
