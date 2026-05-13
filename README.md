@@ -34,7 +34,7 @@
 - [🗄️ Database Schema](#️-database-schema)
 - [📸 Application Screens](#-application-screens)
 - [🚀 Running the Application](#-running-the-application)
-- [🌐 PythonAnywhere Deployment Instructions](#-pythonanywhere-deployment-instructions)- [🔒 Security](#-security)
+- [🔒 Security](#-security)
 - [📜 License](#-license)
 
 ---
@@ -226,44 +226,6 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 *Access the frontend at `http://127.0.0.1:8000/` and the admin panel at `http://127.0.0.1:8000/admin/`*
-
----
-
-### 🌐 PythonAnywhere Deployment Instructions
-
-1. **Create an Account:** Sign up at [PythonAnywhere](https://www.pythonanywhere.com/).
-2. **Upload Code:** Clone your repository directly into the PythonAnywhere bash console or upload your project files.
-3. **Virtual Environment Setup:** 
-   - Open a new Bash console.
-   - Create a virtual environment: `mkvirtualenv --python=/usr/bin/python3.10 myenv`
-   - Install requirements: `pip install -r hostello_backend/requirements.txt`
-4. **Web App Configuration:**
-   - Navigate to the **Web** tab and add a new web app (Select **Manual configuration**, Python 3.10).
-   - Set the **Source code** directory to your `hostello_backend` folder path.
-   - Set the **Virtualenv** path to the environment you just created.
-5. **Configure the WSGI File:**
-   - Edit the WSGI configuration file linked in the Web tab.
-   - Import your Django project and set the environment variable:
-     ```python
-     import os
-     import sys
-     
-     path = '/home/yourusername/HOSTELLO_Automated_Smart_Hostel_Management_System_using_Django/hostello_backend'
-     if path not in sys.path:
-         sys.path.append(path)
-         
-     os.environ['DJANGO_SETTINGS_MODULE'] = 'hostello_backend.settings'
-     
-     from django.core.wsgi import get_wsgi_application
-     application = get_wsgi_application()
-     ```
-6. **Collect Static Files:**
-   - Run `python manage.py collectstatic` in the bash console.
-   - In the Web tab, map the URL `/static/` to your project's static files directory.
-7. **Database Migration:**
-   - Run `python manage.py migrate` in the bash console to initialize your production database.
-8. **Reload and Launch:** 
-   - Click the green **Reload** button at the top of the Web tab. Your project is now live!
 
 ---
 
