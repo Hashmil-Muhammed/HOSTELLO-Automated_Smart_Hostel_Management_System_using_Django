@@ -165,13 +165,62 @@ HOSTELLO/
 
 ## 📸 Application Screens
 
-| Login & Authentication | Admin Dashboard |
-| :---: | :---: |
-| <img src="assets/login.png" alt="Login Screen" width="400" /> | <img src="assets/dashboard.png" alt="Dashboard" width="400" /> |
-| **Student Portal** | **Attendance Tracking** |
-| <img src="assets/student_portal.png" alt="Student Portal" width="400" /> | <img src="assets/attendance.png" alt="Attendance" width="400" /> |
+### 🌐 Public Portal & Student Information
+<div align="center">
+  <img src="assets/01_landing_page.png" alt="Landing Page" width="800"/>
+  <br><em>Modern & Responsive Landing Page</em><br><br>
+  
+  <img src="assets/03_room_types.png" alt="Room Types" width="800"/>
+  <br><em>Detailed 3D Room Previews & Pricing</em><br><br>
 
-*(Note: Replace `assets/*.png` with your actual image paths once screens are captured)*
+  <img src="assets/05_food_menu.png" alt="Food Menu" width="800"/>
+  <br><em>Dynamic Food Menu & Charges Information</em>
+</div>
+
+---
+
+### 🔐 Authentication & Onboarding
+<div align="center">
+  <img src="assets/07_registration.png" alt="Registration" width="400"/> &nbsp; &nbsp;
+  <img src="assets/08_login.png" alt="Login" width="400"/>
+  <br><em>Secure Student Registration and Login Portal</em>
+</div>
+
+---
+
+### 🎓 Student Dashboard & Attendance
+<div align="center">
+  <img src="assets/09_student_dashboard.png" alt="Student Dashboard" width="800"/>
+  <br><em>Comprehensive Student Profile & Status Dashboard</em><br><br>
+  
+  <img src="assets/10_attendance_records.png" alt="Attendance Records" width="800"/>
+  <br><em>Real-time Room and Mess Attendance Tracking</em>
+</div>
+
+---
+
+### 💳 Fee Management & Payments
+<div align="center">
+  <img src="assets/13_fee_management.png" alt="Fee Management" width="800"/>
+  <br><em>Dynamic Fee Calculation (Hostel + Mess) & Secure Payment Gateway</em><br><br>
+
+  <img src="assets/15_payment_success.png" alt="Payment Success" width="600"/>
+  <br><em>Automated Payment Success Confirmation</em>
+</div>
+
+---
+
+### 📝 Requests, Notices & Info
+<div align="center">
+  <img src="assets/11_my_requests_list.png" alt="Requests List" width="800"/>
+  <br><em>Leave Request & Complaint Status Tracking</em><br><br>
+
+  <img src="assets/16_notifications_notices.png" alt="Notifications" width="800"/>
+  <br><em>Real-time Warden Notices categorized by Priority</em><br><br>
+
+  <img src="assets/17_hostel_info_contact.png" alt="Hostel Info" width="800"/>
+  <br><em>Quick Access to Warden Details and Hostel Policies</em>
+</div>
 
 ---
 
