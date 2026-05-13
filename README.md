@@ -1,120 +1,227 @@
-# HOSTELLO: Automated Smart Hostel Management System using Django
+<div align="center">
+  <img src="https://img.shields.io/badge/HOSTELLO-Admin-092E20?style=for-the-badge&logo=django" alt="Hostello Logo">
+  
+  <h3>HOSTELLO</h3>
+  <p>Automated Smart Hostel Management System using Django</p>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+  <p>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django">
+    <img src="https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite">
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+    <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap">
+  </p>
+</div>
 
-## Overview
+> **HOSTELLO** is a comprehensive, automated smart hostel management system designed to streamline and digitize daily hostel operations. By minimizing manual paperwork and maximizing efficiency, it provides a seamless experience for administrators and students alike—handling attendance, absence alerts, room allocation, and fee management in one secure platform.
 
-**HOSTELLO** is an automated, smart hostel management system designed to streamline and digitize the daily operations of hostel accommodations. Built with Django, this comprehensive platform provides a seamless experience for both hostel administrators (wardens) and students, minimizing manual paperwork and maximizing operational efficiency.
+---
 
-The system handles everything from attendance tracking to automated absence notifications, room allocation, fee management, and handling student requests, all within a secure and user-friendly interface.
+## 📋 Table of Contents
+- [🌟 Project Overview](#-project-overview)
+- [✨ Key Features](#-key-features)
+- [🏗️ System Architecture](#️-system-architecture)
+- [💻 Tech Stack](#-tech-stack)
+- [📁 Project Structure](#-project-structure)
+- [🗄️ Database Schema](#️-database-schema)
+- [📸 Application Screens](#-application-screens)
+- [🚀 Running the Application](#-running-the-application)
+- [🔒 Security](#-security)
+- [📜 License](#-license)
 
-## Key Features
+---
 
-- **Smart Attendance System**: Daily tracking of student presence in rooms and the mess, complete with historical records.
-- **Automated Guardian Notifications**: Automatically sends email alerts to parents/guardians when a student is absent beyond the warning or critical thresholds.
-- **Room Assignment & Management**: Efficient allocation and tracking of hostel rooms, visualizing occupancy and availability.
-- **Fee Management**: Transparent tracking of hostel and mess fees, with integrated Stripe payment functionality (if configured).
-- **Student Requests Portal**: A centralized ticketing system for students to submit complaints, maintenance requests, or leave applications, and for wardens to manage them.
-- **Notice Board**: Digital bulletin board to instantly broadcast announcements to all registered students.
+## 🌟 Project Overview
+HOSTELLO tackles the chaotic administration of student accommodations by moving all critical operations—from daily room/mess attendance to grievance reporting—onto a centralized digital platform. The inclusion of automated guardian notifications ensures safety and accountability are maintained seamlessly.
 
-## Tech Stack
+---
 
-- **Backend**: Python 3.10+, Django 5.x, Django REST Framework
-- **Frontend**: HTML5, CSS3, JavaScript (Vanilla/ES6+)
-- **Database**: SQLite (Development) / PostgreSQL (Ready for Production)
-- **Authentication**: Custom User Model, Django Session Authentication
-- **Admin Dashboard**: Customized using `django-jazzmin`
+## ✨ Key Features
+- **⏰ Smart Attendance System:** Daily tracking of student presence in rooms and the mess, complete with historical records.
+- **📩 Automated Guardian Alerts:** Automatically sends email alerts to parents/guardians when a student is absent beyond the warning or critical thresholds.
+- **🛏️ Room Assignment & Management:** Efficient allocation and tracking of hostel rooms, visualizing occupancy and availability.
+- **💳 Fee Management:** Transparent tracking of hostel and mess fees, with integrated Stripe payment functionality.
+- **📝 Student Requests Portal:** A centralized ticketing system for students to submit complaints, maintenance requests, or leave applications.
+- **📢 Notice Board:** Digital bulletin board to instantly broadcast announcements to all registered students.
 
-## Installation and Setup Guide
+---
 
-Follow these steps to run the HOSTELLO project locally on your machine.
+## 🏗️ System Architecture
 
-### Prerequisites
+```text
+    +-------------------+           HTTP/JSON            +-----------------------+
+    |                   |  <==========================>  |                       |
+    |  Frontend Web UI  |                                |   Django Web Server   |
+    |  (HTML/CSS/JS)    |  <-------------------------->  |   (Views/URLs/APIs)   |
+    |                   |           Templates            |                       |
+    +-------------------+                                +-----------+-----------+
+                                                                     |
+                                                                     | ORM
+                                                                     v
+    +-------------------+                                +-----------+-----------+
+    |                   |                                |                       |
+    |   External APIs   |  <==========================>  |     Django Models     |
+    | (Stripe, SMTP)    |      Payments & Emails         |    (Business Logic)   |
+    |                   |                                |                       |
+    +-------------------+                                +-----------+-----------+
+                                                                     |
+                                                                     | SQL
+                                                                     v
+                                                         +-----------+-----------+
+                                                         |                       |
+                                                         |    SQLite Database    |
+                                                         |     (Data Storage)    |
+                                                         |                       |
+                                                         +-----------------------+
+```
 
-- [Python](https://www.python.org/downloads/) (v3.10 or higher)
-- [Git](https://git-scm.com/downloads)
+---
+
+## 💻 Tech Stack
+
+### Frontend
+| Technology | Description |
+| :--- | :--- |
+| **HTML5** | Semantic structure for all dashboard views. |
+| **CSS3** | Premium styling and responsive layout designs. |
+| **JavaScript** | Interactive DOM elements and asynchronous logic. |
+| **Bootstrap**| Clean and consistent UI component framework. |
+
+### Backend
+| Technology | Description |
+| :--- | :--- |
+| **Python 3.10+** | Core programming language. |
+| **Django 5.x** | High-level web framework for rapid development. |
+| **Django REST** | Toolkit for building Web APIs. |
+
+### Database & Tools
+| Technology | Description |
+| :--- | :--- |
+| **SQLite** | Lightweight, robust local data storage. |
+| **django-jazzmin** | Premium customized admin panel interface. |
+
+---
+
+## 📁 Project Structure
+
+```text
+HOSTELLO/
+├── hostello_backend/
+│   ├── accounts/             # Custom user models & auth logic
+│   ├── attendance/           # Room and Mess attendance tracking
+│   ├── fees/                 # Payments and fee management
+│   ├── hostello_backend/     # Main project settings & routing
+│   │   ├── settings.py
+│   │   └── urls.py
+│   ├── notices/              # Notice board broadcasting
+│   ├── requests/             # Student complaints/leave ticketing
+│   ├── students/             # Student profiles & room allocation
+│   ├── static/               # CSS, JS, and Images
+│   ├── templates/            # HTML Django templates
+│   ├── manage.py
+│   └── requirements.txt
+├── .env                      # Environment variables (git-ignored)
+├── .gitignore
+├── README.md
+├── run_backend.bat           # Startup script
+└── run_frontend.bat          # Startup script
+```
+
+---
+
+## 🗄️ Database Schema
+
+| Model Name | Purpose | Key Relationships |
+| :--- | :--- | :--- |
+| **User** | Custom authentication model (Admin/Warden). | Base model. |
+| **Student** | Stores student details, guardian info, room info. | O2O with User, FK to Room. |
+| **RoomAttendance** | Daily presence/absence tracking in rooms. | FK to Student. |
+| **MessAttendance** | Daily presence/absence tracking in the mess. | FK to Student. |
+| **Fee** | Logs fee types, amounts, and payment status. | FK to Student. |
+| **StudentRequest** | Stores complaints, leave apps, and status. | FK to Student. |
+| **Notice** | Global announcements for the dashboard. | Broadcast model. |
+
+---
+
+## 📸 Application Screens
+
+| Login & Authentication | Admin Dashboard |
+| :---: | :---: |
+| <img src="assets/login.png" alt="Login Screen" width="400" /> | <img src="assets/dashboard.png" alt="Dashboard" width="400" /> |
+| **Student Portal** | **Attendance Tracking** |
+| <img src="assets/student_portal.png" alt="Student Portal" width="400" /> | <img src="assets/attendance.png" alt="Attendance" width="400" /> |
+
+*(Note: Replace `assets/*.png` with your actual image paths once screens are captured)*
+
+---
+
+## 🚀 Running the Application
 
 ### 1. Clone the Repository
-
 ```bash
 git clone https://github.com/Hashmil-Muhammed/HOSTELLO_Automated_Smart_Hostel_Management_System_using_Django.git
 cd HOSTELLO_Automated_Smart_Hostel_Management_System_using_Django
 ```
 
 ### 2. Set Up Virtual Environment
-
-It is recommended to use a virtual environment to manage project dependencies.
-
 ```bash
-# Create the virtual environment
 python -m venv hostello_env
-
-# Activate the virtual environment
-# For Windows:
+# Windows:
 hostello_env\Scripts\activate
-# For macOS/Linux:
+# macOS/Linux:
 source hostello_env/bin/activate
 ```
 
 ### 3. Install Dependencies
-
-Navigate to the backend directory and install the required Python packages.
-
 ```bash
 cd hostello_backend
 pip install -r requirements.txt
 ```
 
 ### 4. Configure Environment Variables
-
-Create a `.env` file inside the `hostello_backend/hostello_backend/` directory (where `settings.py` is located) and add the following keys. **Do not skip this step, as sensitive keys have been removed from the source code.**
-
+Create a `.env` file in the `hostello_backend/hostello_backend/` directory:
 ```env
 SECRET_KEY=your-secure-django-secret-key-here
 DEBUG=True
 
-# Email Configuration (For Automated Notifications)
+# Email Configuration
 EMAIL_HOST_USER=your-email@gmail.com
 EMAIL_HOST_PASSWORD=your-app-password
 
-# Stripe API Keys (Optional for local testing if you don't need payments)
+# Stripe API Keys (Optional)
 STRIPE_PUBLISHABLE_KEY=your-stripe-publishable-key
 STRIPE_SECRET_KEY=your-stripe-secret-key
 STRIPE_WEBHOOK_SECRET=your-stripe-webhook-secret
 ```
 
-### 5. Run Database Migrations
-
-Apply the database migrations to set up your local SQLite database.
-
+### 5. Run Migrations & Create Superuser
 ```bash
 python manage.py makemigrations
 python manage.py migrate
-```
-
-### 6. Create Superuser (Admin)
-
-Create an admin account to access the Jazzmin dashboard.
-
-```bash
 python manage.py createsuperuser
 ```
 
-### 7. Run the Development Server
-
-Start the Django development server.
-
+### 6. Start the Server
 ```bash
 python manage.py runserver
 ```
+Access the application at `http://127.0.0.1:8000/`.
 
-You can now access the application at `http://127.0.0.1:8000/`. To access the admin panel, navigate to `http://127.0.0.1:8000/admin/` and log in with your superuser credentials.
+---
 
-## License
+## 🔒 Security
+- All sensitive credentials (API keys, Emails, Secrets) are stored securely in `.env`.
+- Cross-Origin Resource Sharing (CORS) is strictly configured.
+- Protected by Django's native CSRF & XSS prevention layers.
 
+---
+
+## 📜 License
 This project is licensed under the MIT License.
+
+<div align="center">
+  <br>
+  <p>Built with 💻 and ☕ for seamless hostel management.</p>
+</div>
