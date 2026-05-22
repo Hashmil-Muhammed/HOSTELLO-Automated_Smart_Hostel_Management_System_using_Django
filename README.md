@@ -25,6 +25,16 @@
 
 ---
 
+### 🎥 Project Working Demo
+
+https://github.com/user-attachments/assets/0fed39ea-e51d-4bab-a69c-a4a53ace6a20
+
+<div align="center">
+  <em>▶ HOSTELLO - Complete Project Walkthrough (Click Play to watch)</em>
+</div>
+
+---
+
 ## 📋 Table of Contents
 - [🌟 Project Overview](#-project-overview)
 - [✨ Key Features](#-key-features)
