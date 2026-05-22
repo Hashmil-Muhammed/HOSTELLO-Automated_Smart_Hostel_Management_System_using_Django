@@ -27,7 +27,9 @@
 
 ### 🎥 Project Working Demo
 <div align="center">
-  <video src="assets/Hostello_Project_Working_Demo.mp4" controls="controls" width="850">
+  <video controls width="850" poster="assets/01_landing_page.png">
+    <source src="assets/Hostello_Project_Working_Demo.mp4?raw=true" type="video/mp4">
+    Your browser does not support the video tag.
   </video>
   <br><em>HOSTELLO - Complete Project Walkthrough</em>
 </div>
