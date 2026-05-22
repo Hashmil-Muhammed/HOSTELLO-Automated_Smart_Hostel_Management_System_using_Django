@@ -26,12 +26,13 @@
 ---
 
 ### 🎥 Project Working Demo
+
 <div align="center">
-  <video controls width="850" poster="assets/01_landing_page.png">
-    <source src="assets/Hostello_Project_Working_Demo.mp4?raw=true" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <br><em>HOSTELLO - Complete Project Walkthrough</em>
+  <a href="assets/Hostello_Project_Working_Demo.mp4?raw=true" target="_blank">
+    <img src="assets/01_landing_page.png" alt="Watch HOSTELLO Demo" width="850" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/>
+    <br><br>
+    ▶ <b>Click Here to Watch the Complete Project Walkthrough Video</b>
+  </a>
 </div>
 
 ---
