@@ -28,9 +28,11 @@
 ### 🎥 Project Working Demo
 
 <div align="center">
-  <video src="https://github.com/Hashmil-Muhammed/HOSTELLO_Automated_Smart_Hostel_Management_System_using_Django/raw/main/assets/Hostello_Project_Working_Demo.mp4" controls="controls" width="850">
-  </video>
-  <br><em>HOSTELLO - Complete Project Walkthrough</em>
+  <a href="https://github.com/Hashmil-Muhammed/HOSTELLO_Automated_Smart_Hostel_Management_System_using_Django/raw/main/assets/Hostello_Project_Working_Demo.mp4">
+    <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="HOSTELLO Working Demo" width="850">
+  </a>
+  <br>
+  <em>Click the image above to watch the complete HOSTELLO project walkthrough.</em>
 </div>
 
 ---
