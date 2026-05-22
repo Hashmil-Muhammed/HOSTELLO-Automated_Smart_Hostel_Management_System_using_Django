@@ -27,7 +27,7 @@
 
 ### 🎥 Project Working Demo
 <div align="center">
-  <video src="assets/Hostello_Project_Working_Demo (2).mp4" controls="controls" width="850">
+  <video src="assets/Hostello_Project_Working_Demo.mp4" controls="controls" width="850">
   </video>
   <br><em>HOSTELLO - Complete Project Walkthrough</em>
 </div>
