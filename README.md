@@ -28,8 +28,7 @@
 ### 🎥 Project Working Demo
 
 <div align="center">
-  <video controls="controls" width="850" preload="metadata">
-    <source src="https://raw.githubusercontent.com/Hashmil-Muhammed/HOSTELLO_Automated_Smart_Hostel_Management_System_using_Django/main/assets/Hostello_Project_Working_Demo.mp4" type="video/mp4">
+  <video src="https://github.com/Hashmil-Muhammed/HOSTELLO_Automated_Smart_Hostel_Management_System_using_Django/blob/main/assets/Hostello_Project_Working_Demo.mp4" controls="controls" width="850">
   </video>
   <br><em>HOSTELLO - Complete Project Walkthrough</em>
 </div>
